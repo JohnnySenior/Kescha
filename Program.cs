@@ -15,3 +15,9 @@ int differenceAge = age - ageKescha;
 
 Console.WriteLine($"Difference your and Kescha's age is {differenceAge}.");
 
+if(age > ageKescha)
+    Console.WriteLine("You are older than Kescha");
+else if(age < ageKescha)
+    Console.WriteLine("You are younger than Kescha");
+else
+    Console.WriteLine("You are same age with Kescha");
